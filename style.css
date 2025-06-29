@@ -6,31 +6,45 @@
 
 body{
     font-family: "Poppins", sans-serif;
+    padding-top: 75px;
 }
-.navbar{
+.navbar {
+    position: fixed; /* Make navbar stick at the top */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure it stays above other content */
+
     display: flex;
     align-items: center;
-    padding: 20px;
+    justify-content: space-between; /* Ensure spacing between logo and nav */
+    padding: 20px 40px;
+    background-color: #FAF1E4; /* Match your nav background */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
 }
-nav{
-    background-color: #FAF1E4;
+
+nav {
     flex: 1;
     text-align: right;
     border-bottom: solid #222831 1px;
 }
-nav ul{
+
+nav ul {
     display: inline-block;
     list-style-type: none;
 }
-nav ul li{
+
+nav ul li {
     display: inline-block;
     margin-right: 30px;
 }
-a{
+
+a {
     text-decoration: none;
     color: #222831;
     font-size: 20px;
 }
+
 p{
     color: #222831;
 }
@@ -43,8 +57,12 @@ p{
 .row{
     display: flex;
     align-items: center;
+    margin: auto;
     flex-wrap: wrap;
     justify-content: space-around;
+    background-color: #FAF1E4;
+    margin-top: 70px;
+    padding: 25px;
 }
 .col-1{
     flex-basis: 40%;
@@ -79,9 +97,7 @@ p{
 .header{
     background: #FAF1E4;
 }
-.header .row{
-    margin-top: 70px;
-}
+
 .find-scent{
     background: #FAF1E4;
     padding: 50px 0;
