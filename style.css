@@ -8,8 +8,6 @@ body {
     font-family: "Poppins", sans-serif;
     padding-top: 75px;
 }
-<<<<<<< HEAD
-
 /* === Navbar with updated padding and logo size === */
 .navbar {
     display: flex;
@@ -25,7 +23,7 @@ body {
 
 nav {
     background-color: #FAF1E4;
-=======
+}
 .navbar {
     position: fixed; /* Make navbar stick at the top */
     top: 0;
@@ -42,7 +40,6 @@ nav {
 }
 
 nav {
->>>>>>> 862696df77007ea2b46133ba59e9595e3c65d493
     flex: 1;
     text-align: right;
     border-bottom: solid #222831 1px;
@@ -64,11 +61,7 @@ a {
     font-size: 20px;
 }
 
-<<<<<<< HEAD
-p {
-=======
 p{
->>>>>>> 862696df77007ea2b46133ba59e9595e3c65d493
     color: #222831;
 }
 
@@ -130,10 +123,9 @@ p{
     background: #FAF1E4;
 }
 
-<<<<<<< HEAD
 .header .row {
     margin-top: 70px;
-=======
+}
 .find-scent{
     background: #FAF1E4;
     padding: 50px 0;
@@ -277,7 +269,6 @@ p{
     margin-top: 40px;
     font-size: 0.85rem;
     color: #b4b4b4;
->>>>>>> 862696df77007ea2b46133ba59e9595e3c65d493
 }
 
 /* Custom Button */
